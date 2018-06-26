@@ -34,6 +34,7 @@ Breakpoints:
 
 - Tente criar as animações de desenho dos rabiscos
 - Todos os fundos do site são degradês, no scroll do site o degradê deve ser invertido de forma que ao final do scroll da área esse esteja 100% invertido. Exemplo: degradê original é de amarelo para laranjana vertical, ao terminar o scroll dessa área ele deve ficar laranja amarelo.
+- Criar PWA para o site
 
 
 *Atenção: Qualquer cópia do site ou de outro fork desse repositório será considerado plágio e dessa forma será desclassificado.*
