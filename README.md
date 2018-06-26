@@ -6,7 +6,7 @@ Para resolver o teste faça um fork desse repositório e implemente o layout aba
 - https://zpl.io/ad7XDR7 (Link Web do zeplin)
 - zpl://screen?pid=5b327abbd437432e5759cc51&sid=5b327c87404a94ed06d42833 (Link para o App insalado do Zeplin)
 
-Imagens e SVG's estão dentro da pasta src/img, as fontes usadas do projeto podem ser encontradas no GoogleFonts e FontSquirrel, todos os ícones de redes sociais devem baixados de bibliotecas como a FontAwesome.
+Imagens e SVG's estão dentro da pasta src/img, as fontes usadas do projeto podem ser encontradas em src/fonts, todos os ícones de redes sociais devem baixados de bibliotecas como a FontAwesome.
 
 ## Objetivos
 
