@@ -28,6 +28,7 @@ Breakpoints:
 - Todo layout e parte responsiva deve funcionar no IE10+, e últimas 3 versões do FireFox e Chrome. Nas partes que não seja possível justifique via e-mail e faça com que o fallback funcione de forma suave sem perder funcionalidade;
 - Faça os botões de tradução do site (posicionandos no topo direito) do site funcionarem, traduzindo de forma literal os textos do menu e os textos de conteúdo por qualquer texto de marcação em inglês. Pode ser deixado o lorem ipsum quando o português estiver ativo. Use as melhores práticas para salvar essa escolha.
 - Podem ser usados frameworks como Angular e React. Mas o teste por ser simples pode ser realizado em sua totalidade também somente com VanilaJS.
+- Utilize JavaScript ES6. 
 
 ## Extras
 
