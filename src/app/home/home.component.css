@@ -1,0 +1,91 @@
+
+.bg-orange-degrate{
+    background: linear-gradient(45deg, rgba(255, 219, 0, 0.9),
+    rgba(255, 91, 0, 0.9) 50%), url(../../assets/img/bg-home-bsb.jpg);
+}
+
+.title-h3{
+    margin-top: 26%;
+    margin-left: 10%;
+    color: #FFF;
+}
+
+.nav-rede-social{
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.nav-rede-social > li {
+    margin-right: 1%;
+}
+
+.cont-menu{
+    margin-top: 30%;
+    float: right;
+    width: auto;
+    margin-right: 10%;
+}
+
+.nav-menu{
+    text-align: center;
+    list-style: none;
+    width: 150px;
+}
+
+.nav-menu > .logo-menu{
+    height: 170px;
+}
+
+.nav-menu > li{
+    height: 50px;
+}
+
+.nav-menu > li > a{
+    color: #000000;
+}
+.img-logo{
+    width: 40%;
+}
+
+
+.lang {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    z-index: 1
+}
+
+.lang li {
+    float: left
+}
+
+.lang li a {
+    color: #000;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.lang li a.active:before, .lang li a:hover:before {
+    bottom: 3rem;
+    left: 0;
+    opacity: 1
+}
+
+.lang li a:before {
+    border-bottom: .6rem solid #ffdb00;
+    bottom: 3rem;
+    content: "";
+    left: -15rem;
+    opacity: 0;
+    position: absolute;
+    transition: left .3s, opacity .2s;
+    width: 100%;
+    z-index: -1
+}
+
+.lang li a.active:before, .lang-menu li a:hover:before {
+    bottom: 0
+}

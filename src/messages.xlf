@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="445b75f9fab299a63990d55a4bacd08dcce082a6" datatype="html">
+        <source>SOBRE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/sobre/sobre.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/sobre/sobre.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">about</note>
+      </trans-unit>
+      <trans-unit id="56758f387b349f191b0370139944791b4afdd9c6" datatype="html">
+        <source>
+                        LOREM IPSUM DOLOR SIT AMET, OBLIQUE MOLESTIE COMPREHENSAM UT DUO.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/sobre/sobre.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">title about</note>
+      </trans-unit>
+      <trans-unit id="dfc859d215f30a111c30b956f84bdc52c6e5dd94" datatype="html">
+        <source>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/sobre/sobre.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">description about</note>
+      </trans-unit>
+      <trans-unit id="367ba736809249ec0b5c8fef952367fe450fc4a1" datatype="html">
+        <source>CONTATO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/fale-conosco/fale-conosco.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">contact</note>
+      </trans-unit>
+      <trans-unit id="d0b0ef95bd958e10e1c00310ff12c79e48b54254" datatype="html">
+        <source>
+                        NEQUE PORRO QUISQUAM EST QUI <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                        DOLOREM IPSUM QUIA DOLOR SIT AMET, CONSECTETUR, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                        ADIPISCI VELIT
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">title home</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

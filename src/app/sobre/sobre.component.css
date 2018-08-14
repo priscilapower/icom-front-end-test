@@ -1,0 +1,24 @@
+.title-sobre  {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: auto;
+}
+
+.title-sobre > h2{
+    color: #f80;
+    transform: rotate(270deg) translateZ(0);
+    font-size: 150px;
+    margin-top: 75%;
+}
+.cont-text{
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+@media (max-width: 992px) { 
+        .title-sobre > h2{
+            display: none;
+            margin-top: 0%;
+        }
+}

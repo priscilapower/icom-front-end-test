@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="nav-menu">
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+    </a>
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+        <ul class="navbar-nav mr-auto">
+            <li>
+                <a href="#sobre" i18n="about">SOBRE</a>
+            </li>
+            <li>
+                <a href="#contato" i18n="contact">CONTATO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid container-app">
+    <div class="row container-app">
+        <div id="cont-menu" class="col-lg-4">
+            <div class="cont-menu">
+                <ul class="nav-menu">
+                    <li class="logo-menu">
+                        <img src="assets/img/icom_logo.svg" alt="">
+                    </li>
+                    <li>
+                        <a href="#sobre" i18n="about">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="#contato" i18n="contact">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-8 col-sm-12 col-md-12 bg-orange-degrate container-app" id="cont-img-home">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class=lang>
+                        <li><a href=javascript: rel=pt>PT</a>
+                        <li><a href=javascript: rel=en>EN</a>
+                    </ul>
+                    <h3 class="title-h3"  i18n="title home">
+                        NEQUE PORRO QUISQUAM EST QUI <br>
+                        DOLOREM IPSUM QUIA DOLOR SIT AMET, CONSECTETUR, <br>
+                        ADIPISCI VELIT
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="nav nav-rede-social">
+                        <li>
+                  <span class="fa-stack fa-sm">
+                      <i class="fa fa-circle fa-stack-2x text-white "></i>
+                      <i class="fa-facebook fa fa-stack-1x text-orange"></i>
+                  </span>
+                        </li>
+                        <li>
+                  <span class="fa-stack fa-sm">
+                      <i class="fa fa-circle fa-stack-2x text-white "></i>
+                      <i class="fa-twitter fa fa-stack-1x text-orange"></i>
+                  </span>
+                        </li>
+                        <li>
+                  <span class="fa-stack fa-sm">
+                      <i class="fa fa-circle fa-stack-2x text-white "></i>
+                      <i class="fa-linkedin fa fa-stack-1x text-orange"></i>
+                  </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

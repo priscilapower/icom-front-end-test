@@ -1,43 +1,27 @@
-# Icom FontEnd Test
+# TemplateSite
 
-Esse teste tem como intuito medir o grau de conhecimento de um desenvolvedor FrontEnd.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
-Para resolver o teste faça um fork desse repositório e implemente o layout abaixo feito no zeplin:
-- https://zpl.io/ad7XDR7 (Link Web do zeplin)
-- zpl://screen?pid=5b327abbd437432e5759cc51&sid=5b327c87404a94ed06d42833 (Link para o App insalado do Zeplin)
+## Development server
 
-Imagens e SVG's estão dentro da pasta src/img, as fontes usadas do projeto podem ser encontradas em src/fonts, todos os ícones de redes sociais devem baixados de bibliotecas como a FontAwesome.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Objetivos
+## Code scaffolding
 
-- Criar estrutura deixando a página com o melhor SEO possível;
-- Use os elementos do HTML com cuidado, usando de forma correta cada TAG;
-- Use as melhores práticas de performance;
-- Adapte o Layout passado para mobile. Criando uma versão responsiva dele a partir do layout desktop
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Breakpoints:
+## Build
 
-| Nome do breakpoint | Largura mínima | Descrição                         |
-|--------------------|----------------|-----------------------------------|
-| phone              | 568px          | Breakpoint para smartphones       |
-| tablet             | 768px          | Breakpoint para tablets           |
-| desktop            | 992px          | Breakpoint para desktops comuns   |
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-- Use SCSS como pré-processador do seu CSS;
-- Use Gulp ou WebPack para compilar o SASS;
-- Todo layout e parte responsiva deve funcionar no IE10+, e últimas 3 versões do FireFox e Chrome. Nas partes que não seja possível justifique via e-mail e faça com que o fallback funcione de forma suave sem perder funcionalidade;
-- Faça os botões de tradução do site (posicionandos no topo direito) do site funcionarem, traduzindo de forma literal os textos do menu e os textos de conteúdo por qualquer texto de marcação em inglês. Pode ser deixado o lorem ipsum quando o português estiver ativo. Use as melhores práticas para salvar essa escolha.
-- Podem ser usados frameworks como Angular e React. Mas o teste por ser simples pode ser realizado em sua totalidade também somente com VanilaJS.
-- Utilize JavaScript ES6. 
+## Running unit tests
 
-## Extras
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-- Tente criar as animações de desenho dos rabiscos
-- Todos os fundos do site são degradês, no scroll do site o degradê deve ser invertido de forma que ao final do scroll da área esse esteja 100% invertido. Exemplo: degradê original é de amarelo para laranjana vertical, ao terminar o scroll dessa área ele deve ficar laranja amarelo.
-- Criar PWA para o site
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-*Atenção: Qualquer cópia do site ou de outro fork desse repositório será considerado plágio e dessa forma será desclassificado.*
+## Further help
 
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

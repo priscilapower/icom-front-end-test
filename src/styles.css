@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    color: lightslategray;
+}
+.app-drap{
+    height: 100% !important;
+    position: absolute !important;
+    width: 100%;
+}
+.container-app{
+    height: 100% !important;
+}
+.bg-orange-degrate{
+    background: linear-gradient(45deg, rgba(255, 219, 0, 0.9),
+    rgba(255, 91, 0, 0.9) 50%);
+}
+
+.text-orange{
+    color:orange;
+}
+
+#nav-menu{
+opacity: 0.9;
+display: none;
+}
+.mr-auto > li{
+    margin-right: 10%;
+}
+
+.mr-auto > li > a {
+    color: orange;
+    text-decoration: none;
+}
+
+#cont-menu{
+    display: block;
+}
+
+@media (max-width: 992px) { 
+    #nav-menu{
+        display: block;
+        }
+        #cont-menu{
+            display: none;
+        }
+}
+
